@@ -1,0 +1,30 @@
+# --- Environment Secrets (CRITICAL) ---
+.env
+*.env.local
+.env.*.local
+
+# --- Python / Backend ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/dist/
+backend/build/
+backend/*.spec
+
+# --- PyArmor Specific ---
+backend/.pyarmor/
+backend/dist/pyarmor_runtime_*/
+
+# --- React / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+frontend/npm-debug.log*
+
+# --- OS / IDE Specific ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+Thumbs.db
