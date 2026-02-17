@@ -20,8 +20,8 @@ Open **TWO separate terminals** (one for backend, one for frontend).
 ### 1) Clone the repo
 
 ```bash
-git clone https://github.com/Saikat1984git/iSDS-intelligent-software-development-system.git
-cd iSDS-intelligent-software-development-system
+git clone https://github.com/Saikat1984git/iSDS_build
+cd iSDS_build
 ```
 
 ---
@@ -33,7 +33,7 @@ cd iSDS-intelligent-software-development-system
 **Important:** paste the given `.env` file into the backend folder with the exact file name `.env` (no extension). Example path:
 
 ```
-iSDS-intelligent-software-development-system/backend/.env
+iSDS_build/backend/.env
 ```
 
 #### Create & activate virtual environment
@@ -89,7 +89,7 @@ This typically starts the Python server (commonly on `http://127.0.0.1:5000` or 
 Open the second terminal.
 
 ```bash
-cd iSDS-intelligent-software-development-system/frontend
+cd iSDS_build/frontend
 npx serve -s dist
 ```
 
@@ -109,7 +109,7 @@ You **do not need** to run `npm i` or `pip install -r requirements.txt` every ti
 ## Typical folder structure (expected)
 
 ```
-iSDS-intelligent-software-development-system/
+iSDS_build/
 ├─ backend/
 │  ├─ app.py
 │  ├─ requirements.txt
