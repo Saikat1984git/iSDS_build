@@ -115,8 +115,7 @@ iSDS_build/
 │  ├─ requirements.txt
 │  └─ .env         <-- paste your provided .env here
 └─ frontend/
-   ├─ package.json
-   └─ (Vite + React source files)
+   ├─ dist/
 ```
 
 If your repository has different folder names, adjust the `cd` paths above.
